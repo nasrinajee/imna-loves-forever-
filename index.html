@@ -39,6 +39,8 @@
         .gallery-container { max-width: 500px; margin: auto; padding: 20px; padding-bottom: 80px; }
         .image-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; justify-items: center; }
         .image-grid img { width: 100%; height: 230px; object-fit: cover; border-radius: 15px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .promise-msg { font-size: 19px; font-style: italic; color: #6a1b9a; margin-top: 25px; font-weight: bold; text-shadow: 1px 1px 2px white; }
+        
 
         #modal { display: none; position: fixed; z-index: 6000; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9); flex-direction: column; justify-content: center; align-items: center; }
         #modal img { max-width: 85%; max-height: 65%; border-radius: 10px; border: 3px solid white; }
@@ -99,6 +101,7 @@
             <img src="love5.jpg" onclick="openZoom(this.src, 'image5')">
             <img src="love6.jpg" onclick="openZoom(this.src, 'image6')">
         </div>
+        <div class="promise-msg">This is just the beginning of our beautiful memories. In sha Allah, we will create more memories together...🤍👩‍❤️‍👨💜</div>
         <button onclick="finalAnimationSequence()" class="next-btn" id="finalBtn" style="display:inline-block; margin-top: 40px;">Huge Hug for You!🫵🫂</button>
     </div>
 </div>
